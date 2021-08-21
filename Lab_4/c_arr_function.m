@@ -1,0 +1,11 @@
+function A = c_arr_function(C_Eu_Com, C_Eu_Med, C_Eu_Sin, C_Ma_Com, C_Ma_Med, C_Ma_Sin, C_Mi_Com, C_Mi_Med, C_Mi_Sin)
+A=zeros(27,3,2);
+A(:,:,1)=C_Eu_Com;
+A(:,:,2)=C_Eu_Med;
+A(:,:,3)=C_Eu_Sin;
+A(:,:,4)=C_Ma_Com;
+A(:,:,5)=C_Ma_Med;
+A(:,:,6)=C_Ma_Sin;
+A(:,:,7)=C_Mi_Com;
+A(:,:,8)=C_Mi_Med;
+A(:,:,9)=C_Mi_Sin;
